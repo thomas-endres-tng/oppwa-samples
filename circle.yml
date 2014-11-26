@@ -1,5 +1,5 @@
 deployment:
-  master:
+  production:
     branch: master
 
     commands:
