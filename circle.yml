@@ -1,6 +1,7 @@
 deployment:
-  commands:
-    - echo "Foo"
+  master:
+    commands:
+      - echo "Foo"
 
-  post:
-    - echo $TOKEN
+    post:
+      - echo $TOKEN
