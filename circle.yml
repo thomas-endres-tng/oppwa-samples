@@ -12,4 +12,4 @@ deployment:
     branch: master
 
     commands:
-      - echo $TOKEN
+      - node src/trigger-upstream-job.js
