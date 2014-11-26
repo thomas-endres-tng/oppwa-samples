@@ -5,12 +5,11 @@ machine:
 
 test:
   override:
-    - echo "Bar"
+    - echo "These are not the tests you are looking for"
 
 deployment:
   production:
     branch: master
 
     commands:
-      - echo "Foo"
-      - echo "${TOKEN}"
+      - echo $TOKEN
