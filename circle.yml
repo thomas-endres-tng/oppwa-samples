@@ -1,5 +1,7 @@
 deployment:
   master:
+    branch: master
+
     commands:
       - echo "Foo"
       - echo "${TOKEN}"
