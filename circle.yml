@@ -1,0 +1,7 @@
+deployment:
+  production:
+    commands:
+      - echo "Foo"
+
+    post:
+      - echo $TOKEN
