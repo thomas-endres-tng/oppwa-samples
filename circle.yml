@@ -1,7 +1,6 @@
 deployment:
-  production:
-    commands:
-      - echo "Foo"
+  commands:
+    - echo "Foo"
 
-    post:
-      - echo $TOKEN
+  post:
+    - echo $TOKEN
