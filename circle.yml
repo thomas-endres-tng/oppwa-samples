@@ -2,4 +2,4 @@ deployment:
   master:
     commands:
       - echo "Foo"
-      - echo $TOKEN
+      - echo "${TOKEN}"
