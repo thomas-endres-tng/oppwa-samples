@@ -12,7 +12,7 @@ var data = querystring.stringify({
 var options = {
     host: 'circleci.com',
     port: 443,
-    path: '/api/v1/project/' + userName + '/' + projectName + '/tree/develop?' + data,
+    path: '/api/v1/project/' + userName + '/' + projectName + '/tree/context?' + data,
     method: 'POST',
     headers: {
         'Accept': 'application/json',
